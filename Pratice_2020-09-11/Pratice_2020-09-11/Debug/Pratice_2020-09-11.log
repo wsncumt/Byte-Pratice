@@ -1,3 +1,3 @@
 ﻿  main.c
-F:\C语言-GitHub\Byte-Pratice\Pratice_2020-09-11\Pratice_2020-09-11\main.c(30): warning C4716: “Count_Byte”: 必须返回一个值
+F:\C语言-GitHub\Byte-Pratice\Pratice_2020-09-11\Pratice_2020-09-11\main.c(24): warning C4716: “Count_Byte”: 必须返回一个值
   Pratice_2020-09-11.vcxproj -> F:\C语言-GitHub\Byte-Pratice\Pratice_2020-09-11\Debug\Pratice_2020-09-11.exe
