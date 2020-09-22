@@ -18,7 +18,7 @@ void Printf_Arr(int* arr,int sz)
 }
 
 //写一个函数，可以逆序一个字符串的内容
-void Reverse(char* str)
+char * Reverse(char* str)
 {
 	char* left=str;
 	char* right =str+ strlen(str)-1;
@@ -31,6 +31,7 @@ void Reverse(char* str)
 		left++;
 		right--;
 	}
+	return str;
 }
 
 
@@ -135,20 +136,24 @@ void Print_Diamond(const int n)
 	//printf("请输入n：");
 	//scanf("%d",&n);
 	//Print_Diamond(n);
-//	char str[] = "Hello World!";
-//	printf("str=%s\n",str);
-//	Reverse(str);
-//	printf("str1=%s\n", str);
-//	return 0;
+	//char str[] = "Hello World!";
+	//printf("str=%s\n",str);
+	//Reverse(str);
+	//printf("str1=%s\n", str);
+	//return 0;
 //}
 int main()
 {
-	char str[101] = { 0 };
+	/*char str[101] = { 0 };
 	while (gets(str))
 	{
 		Reverse(str);
 		printf("%s\n", str);
 		memset(str, 0, sizeof(str) / sizeof(str[0]));
-	}
+	}*/
+	char str[] = "Hello World!";
+	printf("str=%s\n", str);
+	Reverse(str);
+	printf("str1=%s\n", str);
 	return 0;
 }
