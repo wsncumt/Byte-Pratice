@@ -1,0 +1,4 @@
+﻿  pratice.c
+F:\C语言-GitHub\Byte-Pratice\Pratice_2020-09-29\Pratice_2020-09-29\pratice.c(65,21): warning C4101: “f”: 未引用的局部变量
+F:\C语言-GitHub\Byte-Pratice\Pratice_2020-09-29\Pratice_2020-09-29\pratice.c(114): warning C4715: “List”: 不是所有的控件路径都返回值
+  Pratice_2020-09-29.vcxproj -> F:\C语言-GitHub\Byte-Pratice\Pratice_2020-09-29\Debug\Pratice_2020-09-29.exe
